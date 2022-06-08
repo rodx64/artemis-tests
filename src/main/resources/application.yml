@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: artemistests-config-server 
+  cloud:
+    config:
+      uri:
+      - http://localhost:8888
+  jpa:
+    database-platform: org.hibernate.dialect.Oracle12cDialect
+    hibernate:
+      ddl-auto: update
